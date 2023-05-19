@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.github-popular-repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-filter-container {
+  display: flex;
+  flex-direction: row;
+}
+.popular-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 26px;
+}
+.repos-list {
+  display: flex;
+
+  height: 100vh;
+  margin-right: 15px;
+  @media screen and (min-width: 768px) {
+    max-width: 800px;
+  }
+}

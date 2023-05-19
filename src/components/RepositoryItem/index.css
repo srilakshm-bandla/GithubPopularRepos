@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.repo-item {
+  list-style-type: none;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 12px;
+  margin: 10px;
+}
+.stats-container {
+  display: flex;
+  justify-content: center;
+}
+.repo-name {
+  width: 100px;
+  height: 100px;
+}
+.stat-icons {
+  width: 20px;
+  height: 20px;
+}
+.stats-count {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.repo-heading {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
